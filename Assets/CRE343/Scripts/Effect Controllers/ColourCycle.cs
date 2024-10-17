@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColourCycle : MonoBehaviour
 {
-    public Renderer renderer;
+    private Renderer renderer;
     public float speed = 0.25f;
 
     void Start(){
