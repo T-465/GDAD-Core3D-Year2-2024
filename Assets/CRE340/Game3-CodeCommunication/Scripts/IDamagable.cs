@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Idamagable : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public interface IDamagable
     {
         void TakeDamage(int damage);
@@ -12,3 +13,11 @@ public class Idamagable : MonoBehaviour
 
 
 }
+=======
+    void TakeDamage(int damage);
+    
+    void ShowHitEffect();
+
+
+}
+>>>>>>> Stashed changes
